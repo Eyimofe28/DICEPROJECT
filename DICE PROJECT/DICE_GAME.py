@@ -3,8 +3,8 @@ from PIL import Image, ImageTk
 import random
 
 window = Tk()
-# the Tk() provides a robust and platform independent windowing toolkit(creates an instance for window).
-# A window serves as a container that contains widgets(gui elements:buttons, labels and images.)
+# The Tk() provides a robust and platform-independent windowing toolkit (creates an instance for window).
+# A window serves as a container that contains widgets (gui elements:buttons, labels and images).
 window.geometry('600x600')
 window.title("DICE ROLLING GAME")
 window.config(background="black")
@@ -27,9 +27,6 @@ lab2 = Label(window, image=Die2)
 
 lab.place(x=100, y=150)
 lab2.place(x=350, y=150)
-
-# player = tkvideo('rolling_dice.mp4', my_label, loop=1, size=(300, 300))
-# player.play()
 
 
 def roll_dice():
